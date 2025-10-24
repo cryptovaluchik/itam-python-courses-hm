@@ -1,6 +1,6 @@
 
 
-def insert_https_protocol(link: str):
+def insert_https_protocol(link: str) -> str:
 
     if link.startswith('https'):
         return link

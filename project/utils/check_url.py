@@ -2,16 +2,12 @@ from requests import get
 
 def is_valid_link(link: str) -> bool:
 
-    response = get(
-        url=link
-    )
+    try:
+        response = get(url=link)
+    except Exception:
+        return False
 
-    status_code = response.status_code
-
-    if 200 <= status_code < 300:
-        return True
-    
-    return False
+    return True 
 
 
 # result = is_valid_link(
