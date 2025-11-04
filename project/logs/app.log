@@ -1,0 +1,8 @@
+2025-10-19 01:09:39.313 | ERROR    | presentations.fastapi_app:http_exception_handler:33 - 🚨 HTTPException 404 | Short link not found:(
+→ Метод: GET
+→ Путь: http://localhost:8000/favicon.ico
+→ Заголовки: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="141", "Not?A_Brand";v="8", "Chromium";v="141"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://localhost:8000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7'}
+→ Тело запроса: <пустое тело>
+2025-10-19 01:09:39.324 | DEBUG    | presentations.fastapi_app:add_process_time_header:67 - GET /{link} done in 70.98078727722168ms
+2025-10-19 01:14:23.684 | DEBUG    | presentations.fastapi_app:add_process_time_header:67 - POST /link done in 4174.021005630493ms
+2025-10-19 01:15:15.593 | DEBUG    | presentations.fastapi_app:add_process_time_header:67 - GET /{link} done in 1.6567707061767578ms
